@@ -135,6 +135,9 @@ define(['config',
           '" data-action="show-result"><i class="fa fa-file-text-o fa-lg ' +
           style + 
           '"></i></a></span>');
-    }
+    },
+    getExecutedId: function() {
+        return this.get('execution_id');
+    },
   });
 });

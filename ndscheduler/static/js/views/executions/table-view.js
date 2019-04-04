@@ -99,6 +99,7 @@ define(['utils',
           execution.getScheduledAtString(),
           execution.getFinishedAtString(),
           execution.getDescription(),
+          execution.getExecutedId(),
           execution.getResult()
         ]);
       });
