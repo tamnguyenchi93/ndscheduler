@@ -44,6 +44,8 @@ define(['backbone', 'bootstrap'], function() {
       $('#executions-failed-count').text(this.collection.getCount('failed'));
       $('#executions-success-count').text(
           this.collection.getCount('succeeded'));
+      $('#executions-published-count').text(
+          this.collection.getCount('published'));
     }
   });
 });

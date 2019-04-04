@@ -70,6 +70,8 @@ define(['config',
         style = 'success-color';
       } else if (state === 'failed') {
         style = 'failed-color';
+      } else if (state === 'published') {
+        style = 'published-color';
       }
       return '<span class="' + style + '">' + state + '</span>';
     },
@@ -122,6 +124,8 @@ define(['config',
         style = 'failed-color';
       }else if(state === 'succeeded'){
         style = 'success-color';
+      }else if(state === 'published'){
+        style = 'published-color';
       }else{
         return '';
       }
